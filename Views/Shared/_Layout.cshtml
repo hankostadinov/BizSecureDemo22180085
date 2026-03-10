@@ -25,7 +25,10 @@
 					<a class="btn btn-outline-light btn-sm" asp-controller="Account" aspaction="Login">Login</a>
 				}
 			</div>
-		</div>s
+			<li class="nav-item">
+				<a class="nav-link text-light" asp-area="" asp-controller="Search" asp-action="Index">Search Orders</a>
+			</li>
+		</div>
 	</nav>
 	<main class="container py-4">
 		<h2 class="mb-3">@ViewData["Title"]</h2>
